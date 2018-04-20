@@ -1,0 +1,36 @@
+{
+  "name": "image-processing",
+  "version": "0.1.0",
+  "description": "Fly image processing Edge Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx fly server",
+    "test": "npx fly test",
+    "prepublishOnly": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superfly/image-processing.git"
+  },
+  "keywords": [
+    "image-processing",
+    "optimization",
+    "png",
+    "jpg",
+    "cdn"
+  ],
+  "author": "Kurt Mackey",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/superfly/image-processing/issues"
+  },
+  "homepage": "https://github.com/superfly/image-processing#readme",
+  "devDependencies": {
+    "@fly/fly": "^0.28.4",
+    "@types/color": "^3.0.0",
+    "color": "^3.0.0",
+    "onehostname": "^0.1.1",
+    "ts-loader": "^3.5.0",
+    "typescript": "^2.8.1"
+  }
+}
