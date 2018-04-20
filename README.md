@@ -1,7 +1,8 @@
 # Fly Image Processing App
 
 To run:
-* `npm install`
+* Clone this repository
+* `npm install` (Need recent node version)
 * `npm start`
 
 Demo URLs:
